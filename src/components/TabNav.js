@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tab, Menu, Icon } from 'semantic-ui-react'
 import { NavLink } from "react-router-dom";
+import { makeStyles } from '@material-ui/styles';
 
 // TODO: Add missing tabs below
 
@@ -11,6 +12,11 @@ const Nav = props => (
 		activeClassName="active"
 	/>
 );
+
+const navStyles = makeStyles({
+
+})
+const classes = navStyles
 
 const createLabel = (iconName, labelText) => <span><Icon name={iconName} />{labelText}</span>
 
