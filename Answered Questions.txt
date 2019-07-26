@@ -1,0 +1,23 @@
+Explain benefit(s) using client-side routing?
+
+Answer:  The route is handled internally by the JavaScript that is loaded on the page, 
+allowing us more control and space for data mining. 
+When a user clicks on a link, the URL changes but the request to the server is prevented.
+The adjustment to the URL will result in a changed state of the application. 
+The changed state will ultimately result in a different view of the webpage. 
+There are just some elements inside the application that will change.
+Because less data is processed, routing between views is generally faster.
+Smooth transitions and animations between views are easier to implement. 
+
+What does AJAX stand for ?
+
+Answer: Asynchronous JavaScript and XML
+
+What are controlled components in React?
+
+Answer: An input form element whose value is controlled by React. 
+Then controlled components render a formc which also controls what happens in that form on subsequent user input. 
+
+Name three tools/libraries for making AJAX requests ?
+
+Answer: Fetch API, Axios, and Request library.
